@@ -1,0 +1,29 @@
+.header {
+    background-color: mediumaquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.logo {
+    width: 80px;
+}
+.navigation {
+    justify-self: end;
+    align-self: end;
+    display: flex;
+}
+.navigation a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+/* customization of navigation page */
+
+.navigation a.active{
+    font-weight:bold;
+}
